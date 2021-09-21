@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import './index.less'
 
 const App = () => <div>
-  hello world
-  react
+  <h1>
+    hello world
+  </h1>
 </div>
 
 ReactDOM.render(<React.StrictMode>
