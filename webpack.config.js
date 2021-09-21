@@ -18,6 +18,10 @@ module.exports = {
       template: './src/public/index.html'
     })
   ],
+  resolve: {
+    extensions: ['.jsx','.js', '.json'],
+    mainFiles: ['index']
+  },
   module: {
     rules: [
       {
@@ -30,6 +34,7 @@ module.exports = {
           loader: "less-loader", // compiles Less to CSS
           options: {
             lessOptions: {
+              modifyVars: { '@primary-color': '#1DA57A' },
               javascriptEnabled: true,
             },
           },
