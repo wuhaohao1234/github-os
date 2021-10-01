@@ -34,7 +34,6 @@ module.exports = {
 					loader: "less-loader", // compiles Less to CSS
 					options: {
 						lessOptions: {
-							modifyVars: { "@primary-color": "#1DA57A" },
 							javascriptEnabled: true,
 						},
 					},
