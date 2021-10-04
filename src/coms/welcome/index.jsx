@@ -5,11 +5,9 @@ import { titleSvg } from "./title-svg";
 import { useHistory } from "react-router";
 
 const mockData = [
-	"Racing car sprays burning fuel into crowd.",
-	"Japanese princess to wed commoner.",
-	"Australian walks 100km after outback crash.",
-	"Man charged over missing wedding girl.",
-	"Los Angeles battles huge wildfires.",
+	"1. 更好的查看github",
+	"2. 纯webpack搭建项目",
+	"3. 实现github交友"
 ];
 
 const Welcome = () => {
